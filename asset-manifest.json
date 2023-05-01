@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cb056dca.css",
+    "main.js": "/static/js/main.4dbac860.js",
+    "static/media/ALL-PAGES_-LT-Gray-Arrow-BKG.png": "/static/media/ALL-PAGES_-LT-Gray-Arrow-BKG.0af78ba14d47658220a4.png",
+    "static/media/Eclipsian.png": "/static/media/Eclipsian.25aff7b020262e643c5f.png",
+    "static/media/Nylarion.png": "/static/media/Nylarion.203f076904c724db903f.png",
+    "static/media/Kyrian.png": "/static/media/Kyrian.78742a04074837269461.png",
+    "static/media/Zyris.png": "/static/media/Zyris.8922263accc128df1f52.png",
+    "static/media/Myxen.png": "/static/media/Myxen.73bbf07c25e7824ab51b.png",
+    "index.html": "/index.html",
+    "main.cb056dca.css.map": "/static/css/main.cb056dca.css.map",
+    "main.4dbac860.js.map": "/static/js/main.4dbac860.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb056dca.css",
+    "static/js/main.4dbac860.js"
+  ]
+}
