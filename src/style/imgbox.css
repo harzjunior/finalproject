@@ -1,0 +1,25 @@
+
+
+.service img{
+    width: 380px;
+    height: 40vh;
+    object-fit: cover;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+
+}
+
+.service img:hover{
+    filter: brightness(50%);
+}
+
+.service a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service h2{
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+}

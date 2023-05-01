@@ -1,0 +1,113 @@
+.request_warpper {
+  width: 50vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.detail_data h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+  font-size: 3.5rem;
+}
+
+.detail_data p {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* details_home */
+.details_home-wrapper {
+  height: 135vh;
+}
+
+.details_home {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.detail-home_btn button {
+  background: var(--dark);
+}
+
+.detail-home_btn button:hover {
+  background-color: transparent;
+  border: 2px solid var(--dark);
+}
+.detail-home_btn button a {
+  color: var(--light);
+  text-decoration: none;
+}
+
+.detail-home_btn a:hover {
+  color: var(--dark);
+}
+
+.detail-home_btn {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+/* before & after */
+
+.before_home {
+  height: 95vh;
+  background: var(--dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../img/Myxen.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(80%);
+  color: var(--light);
+}
+
+.before_image-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  gap: 40px;
+  width: 60%;
+}
+
+.Before_btn button {
+  padding: 15px 0;
+  background: var(--light);
+}
+
+.Before_btn button:hover {
+  background-color: transparent;
+  border: 2px solid var(--light);
+}
+.Before_btn button a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.Before_btn a:hover {
+  color: var(--light);
+}
+
+.Before_btn {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+/* BoxImg */
+.box_image-wrapper {
+}
+
+.box_image-wrapper img {
+  width: 100%;
+  box-shadow: var(--shadow);
+}

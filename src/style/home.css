@@ -1,0 +1,50 @@
+.hero {
+  height: 90vh;
+}
+
+.hero_position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero_left {
+  position: relative;
+  color: var(--light);
+  width: 50vw;
+}
+
+.hero_right {
+  position: relative;
+  color: var(--light);
+  width: 50vw;
+  font-size: 2rem;
+
+}
+
+.hero_right > h1 {
+  width: 40vw;
+  height: 100%;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.hero_right span {
+  font-size: 3.5rem;
+
+}
+
+.hero_section img {
+  height: 90vh;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.hero_right .hero-btn{
+  margin-top: 20px;
+}

@@ -1,0 +1,60 @@
+.location_wrapper {
+  height: 80vh;
+}
+
+.location_title {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 3rem;
+}
+
+.location_main {
+  display: flex;
+  align-items: start;
+  margin: 0 auto;
+  width: 90vw;
+}
+
+.location_map {
+  width: 100%;
+  height: 60vh;
+}
+
+.location_details {
+  padding-top: 2rem;
+  width: 100%;
+  text-align: end;
+}
+
+.location_details h1 {
+  font-size: 3.6rem;
+  margin: 2rem 0;
+}
+
+.location_details p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 2rem 0;
+}
+
+.location_details-btn {
+  padding-top: 2rem;
+}
+
+.location_details-btn button {
+  background: var(--dark);
+}
+
+.location_details-btn button:hover {
+  background-color: transparent;
+  border: 2px solid var(--dark);
+}
+.location_details-btn button a {
+  color: var(--light);
+  text-decoration: none;
+}
+
+.location_details-btn a:hover {
+  color: var(--dark);
+}

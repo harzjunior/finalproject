@@ -1,0 +1,23 @@
+:root{
+  --primary:#ddd;
+  --dark:#333;
+  --light:#fff;
+  --shadow:0 1px 5px rgba(104,140,140,0.8)
+}
+
+*{
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
