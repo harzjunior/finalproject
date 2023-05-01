@@ -1,5 +1,7 @@
 .hero {
+  position: relative;
   height: 90vh;
+  top: 10vh;
 }
 
 .hero_position {
