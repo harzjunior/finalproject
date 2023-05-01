@@ -8,9 +8,7 @@ import "../style/footer.css";
 const Footer = () => {
   return (
     <div className="footer_wrapper">
-      <div className="footer_img-wrapper">
-        <img src={footer} alt="footer" />
-      </div>
+      <img src={footer} alt="footer" />
 
       <div className="footer_nav_menu ">
         <div className="footerLogo">
@@ -31,11 +29,12 @@ const Footer = () => {
             <a href="#">Investment</a>
           </li>
         </ul>
-      </div>
 
-      <div className="footer_copy">
-        &copy; ARROW CAPITAL {new Date().getFullYear()} | PRIVACY POLICY | SITE
-        BY STANLEY | SUPERVISED BY H-BAH
+        <div className="footer_copy">
+          <span>&copy; ARROW CAPITAL {new Date().getFullYear()}</span>
+          <span>PRIVACY POLICY </span> <span>SITE BY STANLEY</span>
+          <span>SUPERVISED BY H-BAH</span>
+        </div>
       </div>
     </div>
   );

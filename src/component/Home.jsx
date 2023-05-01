@@ -13,7 +13,7 @@ const Home = () => {
           <div className="hero_right">
             <h1>
               <span>Stanley Realtor </span>
-              is a real estate investment company heeadquartered in Asaba, Dalta
+              is a real estate investment company headquartered in Asaba, Delta
               State
             </h1>
             <div className="hero-btn">

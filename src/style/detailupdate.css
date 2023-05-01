@@ -59,29 +59,59 @@
 /* before & after */
 
 .before_home {
+  position: relative;
   height: 95vh;
-  background: var(--dark);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-image: url("../img/Myxen.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: brightness(80%);
+}
+
+.before_home img {
+  display: block;
+  width: 100%;
+  height: 95vh;
+  object-fit: cover;
+  filter: brightness(30%);
+}
+
+.before_home .before_position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: var(--light);
 }
 
+.before_position {
+  height: 100%;
+}
+
 .before_image-box {
+  position: absolute;
+  top: 55%;
+  transform: translate(0%, -50%);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: 0 auto;
   gap: 40px;
-  width: 60%;
+}
+
+.before_image-box img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(90%);
+  cursor: pointer;
+}
+
+.Before_btn {
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 20px;
 }
 
 .Before_btn button {
   padding: 15px 0;
   background: var(--light);
+  border: 2px solid var(--light);
 }
 
 .Before_btn button:hover {
@@ -90,21 +120,12 @@
 }
 .Before_btn button a {
   color: var(--dark);
+  font-size: 1.1rem;
   text-decoration: none;
 }
 
 .Before_btn a:hover {
   color: var(--light);
-}
-
-.Before_btn {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 20px;
-}
-
-/* BoxImg */
-.box_image-wrapper {
 }
 
 .box_image-wrapper img {

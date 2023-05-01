@@ -1,32 +1,28 @@
 .btn button {
-    padding: 10px;
-    border-radius: 50px;
-    font-size: 1rem;
-    font-weight: bolder;
-    border: none;
-    position: relative;
+  position: relative;
+  padding: 10px;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: bolder;
+  border: none;
+  border: 1px solid var(--light);
 }
 
-
-
-.btn button:hover{
-background-color: transparent;
-border: 1px solid var(--light);
+.btn button:hover {
+  background-color: transparent;
+  border: 1px solid var(--light);
 }
 
 .btn button a {
-    color: var(--dark);
-    text-decoration: none;
-    padding: 20px;
+  color: var(--dark);
+  text-decoration: none;
+  padding: 20px;
 }
 
-.btn a:hover{
-color: var(--light);
+.btn a:hover {
+  color: var(--light);
 }
 
-.btn h1{
-    color: #fff;
+.btn h1 {
+  color: #fff;
 }
-
-
-

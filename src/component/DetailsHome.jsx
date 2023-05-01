@@ -2,6 +2,7 @@ import React from "react";
 import DetailUpdate from "./DetailUpdate";
 import Btn from "./Btn";
 import BoxImg from "./BoxImg";
+import Before from "../img/Myxen.png";
 import ImageBox1 from "../img/Zyris.png";
 import ImageBox2 from "../img/Kyrian.png";
 
@@ -20,16 +21,20 @@ const DetailsHome = () => {
 
       {/* before & after */}
       <div className="before_home">
-        <DetailUpdate
-          title="Arrow Before & After"
-          msg="Arrow is dedicated to improving Lincoln. Check out some of the incredible before and after work completed by Arrow Working Group."
-        />
-        <div className="before_image-box">
-          <BoxImg boxImage={ImageBox1} />
-          <BoxImg boxImage={ImageBox2} />
-        </div>
-        <div className="Before_btn">
-          <Btn titleBtn="View More Before & Afters" />
+        <img src={Before} alt="Eclipsian" />
+
+        <div className="before_position">
+          <DetailUpdate
+            title="Arrow Before & After"
+            msg="Arrow is dedicated to improving Lincoln. Check out some of the incredible before and after work completed by Arrow Working Group."
+          />
+          <div className="before_image-box">
+            <BoxImg boxImage={ImageBox1} />
+            <BoxImg boxImage={ImageBox2} />
+          </div>
+          <div className="Before_btn">
+            <Btn titleBtn="View More Before & Afters" />
+          </div>
         </div>
       </div>
     </div>

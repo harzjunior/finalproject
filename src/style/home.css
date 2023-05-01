@@ -23,19 +23,17 @@
   color: var(--light);
   width: 50vw;
   font-size: 2rem;
-
 }
 
 .hero_right > h1 {
   width: 40vw;
   height: 100%;
-  line-height: 1;
+  line-height: 1.5;
   font-weight: 600;
 }
 
 .hero_right span {
   font-size: 3.5rem;
-
 }
 
 .hero_section img {
@@ -43,8 +41,9 @@
   width: 100%;
   object-fit: cover;
   position: absolute;
+  filter: brightness(60%);
 }
 
-.hero_right .hero-btn{
+.hero_right .hero-btn {
   margin-top: 20px;
 }
