@@ -50,6 +50,7 @@
   background-color: transparent;
   border: 2px solid var(--dark);
 }
+
 .location_details-btn button a {
   color: var(--light);
   text-decoration: none;

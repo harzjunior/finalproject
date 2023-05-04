@@ -23,6 +23,7 @@
 .hero_right {
   position: relative;
   color: var(--light);
+  filter: brightness(90%);
   width: 50vw;
   font-size: 2rem;
 }

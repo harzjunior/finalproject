@@ -26,12 +26,10 @@ function Testimony() {
             </div>
             <div className="message">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, a.
-                Atque, in omnis aperiam quisquam fugiat dolores id similique
-                corrupti, excepturi obcaecati iure accusantium at, natus maiores
-                error. Doloribus repellendus, inventore excepturi porro
-                similique voluptatum facilis error ut aspernatur, sapiente
-                deserunt officiis veritatis molestiae dignissimos iste impedit
+                “100% will never rent from anyone else. Arrow Capital is full of
+                understanding, friendly people. Not only are they nice but very
+                efficient and always quick to solve a problem. I absolutely love
+                renting from Arrow, wouldn’t recommend anyone but them.”
               </p>
             </div>
           </div>

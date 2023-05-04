@@ -14,8 +14,9 @@ header {
   margin: 0 auto;
 }
 
-.logo {
+.logo h1 {
   font-size: 1.5rem;
+  color: var(--primary);
 }
 
 .nav_menu {
@@ -115,4 +116,9 @@ header {
 .nav_hamburger.toggle::after {
   transform: translateY(8px) rotate(-45deg);
   box-shadow: 0px 0px red;
+}
+
+/* media query */
+@media (max-width: 780px) {
+  /* CSS rules for viewport widths of 780px or less go here */
 }

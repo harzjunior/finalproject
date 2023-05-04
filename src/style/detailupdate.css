@@ -1,4 +1,4 @@
-.request_warpper {
+.request_wrapper {
   width: 50vw;
   margin: 0 auto;
   display: flex;
@@ -57,7 +57,6 @@
 }
 
 /* before & after */
-
 .before_home {
   position: relative;
   height: 95vh;
@@ -90,7 +89,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: 0 auto;
-  gap: 40px;
+  gap: 20px;
 }
 
 .before_image-box img {

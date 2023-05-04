@@ -24,6 +24,7 @@
   height: 40vh;
   object-fit: cover;
   box-shadow: var(--shadow);
+  filter: brightness(95%);
 }
 
 .service img:hover {
