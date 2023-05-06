@@ -50,3 +50,39 @@
 .hero_right .hero-btn {
   margin-top: 20px;
 }
+
+/* media query */
+@media (max-width: 780px) {
+  /* CSS rules for viewport widths of 780px or less go here */
+  .hero_position {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hero_left {
+    width: 0;
+  }
+
+  .hero_right {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .hero_right > h1 {
+    width: 80vw;
+    height: 100%;
+    line-height: 1.5;
+    margin-bottom: 3.5rem;
+  }
+
+  .hero_right .hero-btn {
+    margin-bottom: 2rem;
+  }
+
+  .hero_right span {
+    font-weight: 700;
+    font-size: 2.2rem;
+  }
+}

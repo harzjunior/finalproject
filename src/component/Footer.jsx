@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "./Navbar";
 import footer from "../img/ALL-PAGES_-LT-Gray-Arrow-BKG.png";
 import footerLogo from "../img/realty-mls-logo.png";
-
 import "../style/footer.css";
 
 const Footer = () => {

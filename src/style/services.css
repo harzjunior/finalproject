@@ -36,3 +36,20 @@
   justify-content: center;
   align-items: center;
 }
+
+/* media query */
+@media (max-width: 780px) {
+  /* CSS rules for viewport widths of 780px or less go here */
+  .service {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service_wapper h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 2.5rem;
+  }
+}

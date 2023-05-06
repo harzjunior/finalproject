@@ -69,3 +69,43 @@
   color: #ccc9c9;
   cursor: pointer;
 }
+
+@media (max-width: 780px) {
+  .footer_wrapper {
+    height: 10vh;
+  }
+
+  .footer_wrapper img {
+    height: 15vh;
+  }
+
+  .footer_nav_menu li {
+    margin: 1rem;
+  }
+
+  .footer_nav_menu ul li a {
+    font-size: 0.9rem;
+  }
+
+  .footerLogo img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .footer_copy span {
+    text-align: center;
+    color: #ccc9c9;
+    cursor: pointer;
+    font-size: 0.7rem;
+  }
+
+  .footer_copy {
+    position: absolute;
+    top: 82%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+  }
+  .footer_nav_menu {
+    margin-top: 0.8rem;
+  }
+}

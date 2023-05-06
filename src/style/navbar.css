@@ -121,4 +121,47 @@ header {
 /* media query */
 @media (max-width: 780px) {
   /* CSS rules for viewport widths of 780px or less go here */
+  .nav_menu {
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    height: 90vh;
+    width: 25vw;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    display: none;
+    transition: transform 10.5s ease;
+  }
+
+  .nav_menu.open {
+    display: block;
+    transition: transform 10.5s ease;
+  }
+
+  .nav_menu ul li a {
+    font-size: 1.1rem;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav_menu ul li:hover {
+    font-size: 1.1rem;
+  }
+
+  .logo h1 {
+    font-size: 1.3rem;
+    color: var(--primary);
+  }
+
+  .nav_hamburger::before {
+    width: 25px;
+    height: 2px;
+  }
+
+  .nav_hamburger::after {
+    width: 25px;
+    height: 2px;
+  }
 }
